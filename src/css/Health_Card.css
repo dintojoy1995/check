@@ -1,0 +1,76 @@
+.health-card-main-div{
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+    border:1px solid rgb(184, 175, 175);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* max-height: 180px; */
+    background-color:white;
+    box-shadow: 0 8px 24px -8px rgba(0,0,0,.11);
+}
+.health-card-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 10px 16px 3px;
+}
+.health-card-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 10px 16px 3px;
+}
+.health-card-row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 10px 16px 3px;
+    height: 40px;
+    background-color: rgb( 246 247 253 );
+    border-radius: 10px;
+}
+.health-card-title{
+    font-size: small;
+    color: rgb(3 3 3 / 60%);
+}
+.planDetails-btn{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.health-card-row3 .health-card-row3-col1{
+    font-weight: bolder;
+}
+li{
+    font-size:14px;
+    color: darkblue;
+}
+.buy-btn{
+    border: 0;
+    width: 100px;
+    background-color: rgb(245, 186, 76);
+}
+.buy-txt{
+    font-size: 12px;
+    color: rgb(92, 85, 85);
+}
+.save-span{
+    color: #00a3bf;
+    font-size: 12px;
+    font-weight: 700!important;
+}
+.col{
+    width: 150px!important;
+}

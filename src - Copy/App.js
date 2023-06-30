@@ -7,22 +7,13 @@ import Address_details from './components/Address_details';
 import HealthPremium from './components/HealthPremium';
 import HealthPremium2 from './components/HealthPremium2';
 import HealthProposal from './components/HealthProposal';
+import HealthProposalUserDetailsForm from './components/HealthProposalUserDetailsForm';
 import ContentLoader1 from './components/ContentLoader';
-// import Test2 from './components/Test2';
-import {  FormProvider } from './components/FormContext'
-import Form from './components/Form'
-import Initial from './components/Initial'
-import Display from './components/Display'
-import Age from './components/Age'
-import Pincode from './components/Pincode'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import HealthProposalNomine from './components/HealthProposalNominee';
-import HealthProposalContactDetails from './components/HealthProposalContactDetails';
-
+import Test from './components/Test';
 function App() {
   return (
 <>   
-<FormProvider>
+
  <Router>
    <Routes>
    <Route path="/health" element={<Health/>} />
@@ -34,20 +25,11 @@ function App() {
    <Route path="/health_premium2" element={<HealthPremium2/>}/>
    <Route path="/health_proposal" element={<HealthProposal/>}/>
    <Route path="/loader" element={<ContentLoader1/>}/>
-   {/* <Route path="/test" element={<Test2/>}/> */}
-   <Route path="/health_nominee" element={<HealthProposalNomine/>}/>
-   <Route path="/health_contact" element={<HealthProposalContactDetails/>}/>
-
-        <Route path="/" element={<Form />} />
-        <Route path="/initial" element={<Initial/>} />
-        <Route path="/display" element={<Display/>} />
-        <Route path="/age" element={<Age/>} />
-        <Route path="/pincode" element={<Pincode/>}></Route>
-
+   <Route path="/test" element={<Test/>}/>
    {/* <Route path="/health_test" element={<HealthProposalUserDetailsForm/>}/> */}
    </Routes>
   </Router>
- </FormProvider>
+ 
     </>
   );
 }

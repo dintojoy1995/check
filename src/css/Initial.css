@@ -1,0 +1,25 @@
+.flx{
+    width: 400px;
+    height: 400px;
+    /* background-color: rgb(50, 103, 150); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .first-icons{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+  }
+  img {
+    width: 80px; /* Adjust the size as needed */
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke; /* Add styling for the image container */
+  }
+  
+  img.selected {
+    border-color: #3862b1 /* Add styling for the selected image */
+  }

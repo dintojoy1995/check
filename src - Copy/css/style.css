@@ -1,0 +1,25 @@
+.maindiv-member-details{
+    display: flex;
+    flex-direction: row;
+  align-items: left;
+  align-content: left;
+  justify-content:space-between;
+align-self: left;
+margin-left: 50%;
+transform: translate(-40%,0);
+}
+.member-deatails-name{
+    margin-left: 50px;
+    font-weight: 500;
+}
+.member-details-age{
+    margin-left: 100px;
+    text-align: right;
+}
+
+.table-member-details{
+    width: 80%;
+}
+.member-details-next-btn{
+    text-align: center;
+}

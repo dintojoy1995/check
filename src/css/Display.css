@@ -1,0 +1,77 @@
+.subdiv{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.bottom-btn{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.display-maindiv{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    /* background-color: aqua; */
+  }
+  .checkbox-image {
+    width: 80px; /* Adjust the size as needed */
+    height: 80px;
+    border: 2px solid whitesmoke; /* Add styling for the image container */
+    border-radius: 10px;
+  }
+  .checkbox-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .checkbox{
+    margin-right: 15px;
+
+  }
+  .checkbox-input + label {
+    cursor: pointer;
+    /* Add styling for the label to mimic the appearance of a checkbox */
+  }
+  .checkbox-input:checked + .checkbox-label .checkbox-image {
+    border-color: #3862b1; /* Add styling for the selected image */
+  }
+  .subdiv-row1,.subdiv-row2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-top: 40px;
+  }
+  .special{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.705);
+    max-height: 25px;
+    width: 80px;
+  }
+  .special .btn{
+    color: white;
+    font-weight:900;
+    border-width: 0px;
+    padding-top: 0px;
+} 
+.checkbox-label{
+    margin-bottom: 0px;
+    width: 80px;
+    margin-right: 15px;
+}
+.relation-name{
+    text-align: center;
+    font-size:14px;
+}
+.kids-count{
+    color: white;
+    font-weight:600;
+}

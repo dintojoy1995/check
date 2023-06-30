@@ -1,0 +1,16 @@
+.bg{
+    /* background-image: linear-gradient(180deg,#86b535 0%,#ffcb58 90%)!important; */
+    background-image: #86b535 !important;
+}
+.bg{
+    background-image: url("../images/daughter-icon.png");
+}
+.bg{
+   background-color: #86b535!important;
+   height: 1000px;
+   width: 100%;
+}
+.image{
+    height: 500px;
+    width:500px;
+}

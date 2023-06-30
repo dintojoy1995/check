@@ -1,0 +1,99 @@
+/* Card */
+
+.card {
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: white !important;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  display: flex;
+  justify-content: center; /* changed from space-between */
+  align-items: center;
+  padding: 0.5rem 1rem;
+  height: 80px;
+}
+
+.tab {
+  cursor: pointer;
+  color: #343a40;
+  font-weight: 500;
+  flex: 1;
+  text-align: center;
+  margin: 0 40px;
+  font-size: 1.1rem;
+}
+
+.tab.active {
+  color: #007bff;
+}
+
+.separator {
+  color: #343a40;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+/* Car */
+
+.car-tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-field-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.search-field-container input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-field-container button {
+  height: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.other-options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  color: #000;
+}
+
+.other-option {
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 20px;
+}

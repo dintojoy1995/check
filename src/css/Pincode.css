@@ -1,0 +1,11 @@
+.bottom-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    margin: 0%;
+}
+input, input:focus {
+    border: 1px solid black!important;
+}

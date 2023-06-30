@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+body{
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-icons{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+label {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  border: 1px solid #ccc; /* Add styling for the image container */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img.selected {
+  border-color: #000; /* Add styling for the selected image */
+}
+.bttn{
+  background-color: orange;
+  color: white;
+  border-radius: 5%;
+}
+.img-wrap{
+  display: flex;
+  cursor: pointer;
+}
+.flx{
+  width: 400px;
+  height: 400px;
+  /* background-color: rgb(50, 103, 150); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-gender{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+/* new try */
+.checkbox {
+  display: inline-block;
+
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.checkbox-input {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.checkbox-image {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px;
+  margin-right: 5px;
+  border: 1px solid #ccc; /* Add styling for the image container */
+}
+
+.checkbox-input:checked + .checkbox-label .checkbox-image {
+  border-color: #000; /* Add styling for the selected image */
+}
+.wrapper2{
+  width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background-color: aqua; */
 }
-
-.App-link {
-  color: #61dafb;
+.wrapper-checkbox{
+  height: 300px;
+  /* background-color: white; */
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-items: space-between; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.special{
+  position:absolute;
+}
+.wrap-pin{
+  width:400px;
+  /* height: 400px; */
+  background-color: aquamarine;
+}
+.hide {
+  visibility: hidden;
+}
+.gid{
+  display: grid;
+  grid-template-columns: 1fr 1 fr 1fr;
+  grid-template-rows: auto;
 }

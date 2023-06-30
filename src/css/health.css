@@ -1,0 +1,113 @@
+.health-gender-title{
+  color: #795b5b;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.health-title{
+text-align:center;
+color:rgba(3,3,3,.7); 
+}
+.health-card{
+  margin: auto;
+}
+
+.health-gender-main{
+  display: flex;
+  color: black;
+  font-size:15px;
+  font-weight:500;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+#health-gender-icon{
+  width: 50px;
+  margin-top: 10px;
+}
+#health-member-cbx3:disabled,#health-member-cbx2:disabled{
+  background-color: #f6f7fd;
+  border:1px solid #ddd;
+  
+}
+
+.health-gender-button{
+  color: black;
+  border-radius: 8px;
+  
+  width: 100px;
+  height: 120px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.health-gender-button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(80, 73, 175, 0.829);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+
+}
+
+.health-member-main{
+  display: flex;
+  color: black;
+  font-size:15px;
+  font-weight: lighter;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  
+  font-weight: 500;
+}
+.health-member-items{
+ 
+  border-radius: 8px;
+  width: 100px;
+  height: 110px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.health-member-items:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(80, 73, 175, 0.829);
+}
+.health-gender-bx{
+  align-items: center;
+  text-align: center;
+}
+
+
+.imagecheckbox{
+  position: relative;
+  -webkit-appearance: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 15px 15px 25px rgba(2,28,53,0.05);
+  /* z-index: 1; */
+}
+
+.health-member-label{
+  position: relative;
+  bottom: 115px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked{
+  border: 3px solid #478bfb;
+  
+}
+
+

@@ -1,0 +1,18 @@
+img{
+    width: 60px;
+    height: 60px;
+}
+.sub-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.sub-div span{
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.sub-div img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
