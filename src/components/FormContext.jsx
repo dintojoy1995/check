@@ -81,10 +81,6 @@ export const FormProvider = ({ children }) => {
       //     })))
       //   // setSelectedOptions([]);
       // };
-
-
-      
-
       const handleGenderChange = (event) => {
         setFormData((prevData) => ({
             ...prevData,
@@ -92,29 +88,15 @@ export const FormProvider = ({ children }) => {
             spouse:'',
             spouseAge:''
           }));       
-//           setSelectedMembers((prevMembers) =>{
-//   const arr=prevMembers.filter((member) => member.relation !== 'Spouse')
-// console.log(arr);
-//   return arr 
-// }
-// );
-
-const arr=selectedMembers.filter((member) => member.relation !== 'Spouse')
-setSelectedMembers(arr)
-
-
-        const selfIndex = selectedMembers.findIndex((member) => member.relation === 'Self');
+         
+          const selfIndex = selectedMembers.findIndex((member) => member.relation === 'Self');
          if (selfIndex !== -1) {
          selectedMembers[selfIndex] = { ...selectedMembers[selfIndex], Gender: event.target.value };
           }
  setSelectedMembers(selectedMembers);
+  setSelectedMembers((prevMembers)=>
+        prevMembers.filter((member) => member.relation!== 'Spouse'))
       };
-
-
-
-
-
-
        const youCheckBoxChange =(event) => {
         const value = event.target.value;
         const checked = event.target.checked;

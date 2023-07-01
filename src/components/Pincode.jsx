@@ -45,12 +45,32 @@ if(youAge){
       }));
     }
   };
+  // const handleSamePincodeChange = (e) => {
+  //   setFormData((prevData) => ({
+  //     ...prevData,
+  //     samePincode: e.target.value
+  //   }));
+  //   if (e.target.checked) {
+  //     setFormData((prevData) => ({
+  //       ...prevData,
+  //       fatherPincode: pincode
+  //     }));
+  //   } else {
+  //     setFormData((prevData) => ({
+  //       ...prevData,
+  //       fatherPincode: ''
+  //     }));
+  //   }
+  // };
   const handleSamePincodeChange = (e) => {
+    const isChecked = e.target.checked;
+  
     setFormData((prevData) => ({
       ...prevData,
-      pincode: e.target.value
+      samePincode: isChecked
     }));
-    if (e.target.checked) {
+  
+    if (isChecked) {
       setFormData((prevData) => ({
         ...prevData,
         fatherPincode: pincode
